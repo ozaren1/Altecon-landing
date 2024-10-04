@@ -1,0 +1,17 @@
+name: Altecon
+type: theme
+description: 'Altecon template.'
+core_version_requirement: ^10
+base theme: stable
+
+libraries:
+  - altecon/global
+
+
+regions:
+  header: 'Header'
+  content: content
+  footer: 'Footer'
+  
+favicon:
+  uri: 'theme://img/favicon.svg'  # Укажите правильный путь к вашему фавикону

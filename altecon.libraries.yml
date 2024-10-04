@@ -1,0 +1,18 @@
+global:
+  version: 1.x
+  css:
+    theme:
+      "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap": {external: true}
+      css/normalize.min.css: {}
+      css/style.css: {}
+      "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css": {external: true}
+      "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css": {external: true}
+  js:
+    "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js": {external: true}
+    "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js": {external: true}
+    "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js": {external: true}
+    js/script.js: {}
+  dependencies:
+    - core/jquery
+
+
